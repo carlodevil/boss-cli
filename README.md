@@ -6,4 +6,4 @@ Tech stack used:
 - Java Spring
 - Java Spring Cloud Config
 - Flutter
-- PostgreSQL
+- Redis
