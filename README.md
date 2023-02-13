@@ -19,8 +19,8 @@ Tech stack used:
 - Logspout with Papertrial for logging
 
 Design principles to keep in mind:
-https://12factor.net/
-https://freecontent.manning.com/designing-business-logic-in-a-microservice-architecture/
+- https://12factor.net/
+- https://freecontent.manning.com/designing-business-logic-in-a-microservice-architecture/
 
 For building custom command-line tool:
 http://yargs.js.org/
