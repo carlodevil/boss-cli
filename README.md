@@ -1,6 +1,6 @@
 # Boss CLI
 
-<img src="https://static.wikia.nocookie.net/bossbaby/images/1/1d/Jimbo.png/revision/latest?cb=20220416180336" alt="Boss CLI Logo" width="128" height="128">
+<img src="https://static.wikia.nocookie.net/bossbaby/images/1/1d/Jimbo.png/revision/latest?cb=20220416180336" alt="Boss CLI Logo" width="128">
 
 Boss CLI is a command-line tool that manages a monorepo project stack based on Flutter, Java Spring, Redis, and PostgreSQL.
 
