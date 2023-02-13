@@ -1,9 +1,28 @@
 # flutter-java-template
-A monorepo setup for a complete Flutter, Java, and PostgreSQL project stack.
+A monorepo setup for a complete Flutter, Java Spring, Redis and PostgreSQL project stack.
+
+Services should own their data - thus each service has its own DB.
+
+Query System based on GraphQL
 
 Tech stack used:
-- NGINX (direct install, not on docker. Remeber to have mainanance page)
+- NGINX (direct install, not on docker. Remember to have maintanance page)
 - Java Spring
 - Java Spring Cloud Config
-- Flutter
-- Redis
+- Flutter for mobile development
+- Redis for performance-critical data
+- PostgreSQL for long-lived data
+- Docker Swarm (smaller deployments) or Kubernetes (Big deployements) for cluster orchestration 
+- OAuth for authorization
+- Kafka for event streaming (pub/sub)
+- Google Analytics for reporting
+- Logspout with Papertrial for logging
+
+Design principles to keep in mind:
+https://12factor.net/
+https://freecontent.manning.com/designing-business-logic-in-a-microservice-architecture/
+
+For building custom command-line tool:
+http://yargs.js.org/
+
+Repo config stored in repo.config?
