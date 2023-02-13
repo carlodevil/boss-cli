@@ -1,5 +1,5 @@
-# flutter-java-template
-A monorepo setup for a complete Flutter, Java Spring, Redis and PostgreSQL project stack.
+# Boss CLI
+A CLI for a complete Flutter, Java Spring, Redis and PostgreSQL monorepo project stack.
 
 Services should own their data - thus each service has its own DB.
 
