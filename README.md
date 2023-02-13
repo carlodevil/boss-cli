@@ -6,7 +6,7 @@ Services should own their data - thus each service has its own DB.
 Query System based on GraphQL
 
 Tech stack used:
-- NGINX (direct install, not on docker. Remember to have maintanance page)
+- NGINX (Direct install on server. Remember to have maintanance page)
 - Java Spring
 - Java Spring Cloud Config
 - Flutter for mobile development
