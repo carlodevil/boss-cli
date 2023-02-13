@@ -1,0 +1,19 @@
+{
+  "name": "boss-cli",
+  "version": "1.0.0",
+  "description": "A CLI to build and manage a boss monorepo.",
+  "main": "index.js",
+  "repository": "https://github.com/carlodevil/boss-cli.git",
+  "author": "carlo-gw <carlo@get-wings.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "boss": "node lib/index.js",
+    "clear": "rm -r .temp"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "yargs": "^17.6.2"
+  }
+}
