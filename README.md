@@ -7,7 +7,7 @@ Boss CLI is a command-line tool that manages a monorepo project stack based on F
 ## Key Features
 
 - Services with their own databases.
-- A GraphQL-based query system.
+- A GraphQL/REST-based query system.
 - The following technologies are utilized:
   - NGINX with a built-in maintenance page
   - Java Spring
@@ -22,7 +22,8 @@ Boss CLI is a command-line tool that manages a monorepo project stack based on F
   - Logspout and ELK/Papertrial for logging
 - Built with principles from the [12 Factor Methodology](https://12factor.net/) and [Designing Business Logic in a Microservice Architecture](https://freecontent.manning.com/designing-business-logic-in-a-microservice-architecture/).
 - Custom command-line tool built using [Yargs](http://yargs.js.org/).
-- Repository configuration stored in repo.config.
+- Repository configuration stored in boss.config
+- NPX for Js handling
 
 ## Installation
 
