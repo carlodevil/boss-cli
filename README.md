@@ -19,7 +19,7 @@ Boss CLI is a command-line tool that manages a monorepo project stack based on F
   - OAuth for authorization
   - Kafka for event streaming (pub/sub)
   - Google Analytics for reporting
-  - Logspout and Papertrial for logging
+  - Logspout and ELK/Papertrial for logging
 - Built with principles from the [12 Factor Methodology](https://12factor.net/) and [Designing Business Logic in a Microservice Architecture](https://freecontent.manning.com/designing-business-logic-in-a-microservice-architecture/).
 - Custom command-line tool built using [Yargs](http://yargs.js.org/).
 - Repository configuration stored in repo.config.
