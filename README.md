@@ -1,5 +1,7 @@
 # Boss CLI
 
+## In progress!
+
 <img src="https://static.wikia.nocookie.net/bossbaby/images/1/1d/Jimbo.png/revision/latest?cb=20220416180336" alt="Boss CLI Logo" width="128">
 
 Boss CLI is a command-line tool that manages a monorepo project stack based on Flutter, Java Spring, Redis, and PostgreSQL.
@@ -20,6 +22,7 @@ Boss CLI is a command-line tool that manages a monorepo project stack based on F
   - Kafka for event streaming (pub/sub)
   - Google Analytics for reporting
   - Logspout and ELK/Papertrial for logging
+  - Ansible for Automation
 - Built with principles from the [12 Factor Methodology](https://12factor.net/) and [Designing Business Logic in a Microservice Architecture](https://freecontent.manning.com/designing-business-logic-in-a-microservice-architecture/).
 - Custom command-line tool built using [Yargs](http://yargs.js.org/).
 - Repository configuration stored in boss.config
