@@ -27,6 +27,7 @@ Boss CLI is a command-line tool that manages a monorepo project stack based on F
 - Custom command-line tool built using [Yargs](http://yargs.js.org/).
 - Repository configuration stored in boss.config
 - NPX for Js handling
+- js-yaml for config
 - [Java Handling Tutorial](https://docs.oracle.com/javase/8/docs/technotes/guides/scripting/prog_guide/javascript.html)
 - require-dir to load templates
 
